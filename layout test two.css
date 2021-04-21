@@ -1,0 +1,30 @@
+body{margin: 0%;}
+
+.qqq{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bolder;
+    padding: 25px;
+}
+
+.www{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+}
+
+.eee{
+    width: 280px;padding: 5;
+    background-color: darkgrey;
+}
+
+@media(max-width:1036px){
+    .qqq{font-size: 26;}
+    .eee{width: 45%;}
+}
+@media(max-width:490px){
+    .eee{width: 90%;}
+}
